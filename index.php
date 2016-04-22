@@ -10,9 +10,9 @@
     echo "<br>";
     echo 5*7;
     echo "<br>";
-    $myname = "Frodo Baggins";
-    $myage = 111;
-    echo "My name is " . $myname . "and i am " . $myage;
+    $name = "Frodo Baggins";
+    $age = 111;
+    echo "My name is " . $name . "and i am " . $age;
     echo "<br>";
 
     $name = "Edgar";
@@ -22,6 +22,27 @@
     else{
         print "Who are you?";
     }
+
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+    echo "<br>";
+
+    $myage = 20;
+
+    if($myage >= 21){
+        print "You can buy specs, mugs and sausage rolls";
+    }
+    elseif ($myage >= 18){
+        print "You can be specs and mugs";
+    }
+    elseif($myage >= 16){
+        print "You can buy specs";
+    }
+    else{
+        print "You cant buy anything you young twat";
+    }
+
 
     ?>
 </p>
