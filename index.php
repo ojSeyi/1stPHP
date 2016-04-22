@@ -1,7 +1,1 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: OJ Pumping
- * Date: 22/04/2016
- * Time: 11:42
- */
+<!DOCTYPE html> <html>     <head>  </head>  <body>         <p>           <?php             echo "Hello World";            ?>         </p>  </body> </html>
