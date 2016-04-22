@@ -28,7 +28,7 @@
     echo "<br>";
     echo "<br>";
 
-    $myage = 17;
+    $myage = 15;
 
     if($myage >= 21){
         print "You can buy specs, mugs and sausage rolls";
