@@ -13,7 +13,7 @@
     $myname = "Frodo Baggins";
     $myage = 111;
     echo "My name is " . $myname . "and i am " . $myage;
-    ?>
+    ?> 
 </p>
 </body>
 </html>
