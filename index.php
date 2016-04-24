@@ -57,7 +57,7 @@
             echo "3 is just a lot of hobbits";
             break;
         default:
-            echo "All the hobbits have gone home"
+            echo "All the hobbits have gone home";
             break;
     }
 
