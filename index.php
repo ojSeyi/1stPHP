@@ -43,6 +43,19 @@
         print "You cant buy anything you young twat";
     }
 
+    $numberofhobbits = 2;
+
+    switch($numberofhobbits){
+        case 1:
+            echo "1 sad habbit";
+            break;
+        case 2:
+            echo "2 happy hobbits";
+            break;
+        case 3:
+            echo "3 is just a lot of hobbits";
+            break;
+    }
 
     ?>
 </p>
