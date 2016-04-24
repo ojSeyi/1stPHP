@@ -81,14 +81,14 @@
 
     echo "<br>";
 
-    $provisonedActivities = array("Specs", "Drus", "Rock and Roll");
+    $provisonedActivities = array("Specs", "Drugs", "Rock and Roll");
 
     foreach($provisonedActivities as $x){
         print "<p>$x</p>";
     }
 
-    $provisonedActivities[2] = "Mugs";
-    unset($provisonedActivities[3]);
+    $provisonedActivities[1] = "Mugs";
+    unset($provisonedActivities[2]);
 
     foreach($provisonedActivities as $x){
         print "<p>$x</p>";
