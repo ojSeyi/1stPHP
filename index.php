@@ -42,8 +42,9 @@
     else{
         print "You cant buy anything you young twat";
     }
+     echo "<br>";
 
-    $numberofhobbits = 2;
+    $numberofhobbits = 3;
 
     switch($numberofhobbits){
         case 1:
