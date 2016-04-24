@@ -87,6 +87,13 @@
         print "<p>$x</p>";
     }
 
+    $provisonedActivities[2] = "Mugs";
+    unset($provisonedActivities[3]);
+
+    foreach($provisonedActivities as $x){
+        print "<p>$x</p>";
+    }
+
 
 
     ?>
