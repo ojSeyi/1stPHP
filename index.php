@@ -60,6 +60,7 @@
             echo "All the hobbits have gone home";
             break;
     }
+    echo "<br>";
 
     $wantedgood = "mug";
 
