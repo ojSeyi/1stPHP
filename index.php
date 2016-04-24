@@ -62,7 +62,7 @@
     }
     echo "<br>";
 
-    $wantedgood = "mug";
+    $wantedgood = "alcohol";
 
     switch($wantedgood){
         case "mug":
