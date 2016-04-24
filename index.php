@@ -61,6 +61,25 @@
             break;
     }
 
+    $wantedgood = "mug";
+
+    switch($wantedgood){
+        case "mug":
+            echo "You have to be 16";
+            break;
+        case "specs":
+            echo "You have to be 18";
+            break;
+        case "alcohol":
+            echo "You have to be 21";
+            break;
+        default:
+            echo "You can buy most things if you're below 16";
+            break;
+    }
+
+
+
     ?>
 </p>
 </body>
