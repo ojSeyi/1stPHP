@@ -44,7 +44,7 @@
     }
      echo "<br>";
 
-    $numberofhobbits = 3;
+    $numberofhobbits;
 
     switch($numberofhobbits){
         case 1:
@@ -55,6 +55,9 @@
             break;
         case 3:
             echo "3 is just a lot of hobbits";
+            break;
+        default:
+            echo "All the hobbits have gone home"
             break;
     }
 
