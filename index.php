@@ -79,6 +79,14 @@
             break;
     }
 
+    echo "<br>";
+
+    $provisonedActivities = array("Specs", "Drus", "Rock and Roll");
+
+    foreach($provisonedActivities as $x){
+        echo "<p>$x</p>";
+    }
+
 
 
     ?>
