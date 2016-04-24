@@ -44,7 +44,7 @@
     }
      echo "<br>";
 
-    $numberofhobbits;
+    $numberofhobbits = 1;
 
     switch($numberofhobbits){
         case 1:
