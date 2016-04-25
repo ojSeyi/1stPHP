@@ -121,7 +121,7 @@
     $monthday = 1;
 
     do{
-        $good = rand([0],[2])
+        $good = rand(0,2)
         //0 = spec, 1 = mug, 2 = sausage rolls
         ;
         switch($good){
