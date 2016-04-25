@@ -111,11 +111,43 @@
                 print "<p>On the $d of the month no products are available</p>";
             }
             $x++;
-
-
-        
     }
 
+    $provisionedActivity = array("Specs", "Mugs", "Sausage rolls", "Specs and Sausage rolls");
+
+    $specs_stock = 7;
+    $mugs_stock = 7;
+    $srolls_stock = 7;
+    $monthday = 1;
+
+    do{
+        $good = rand([0],[2])
+        //0 = spec, 1 = mug, 2 = sausage rolls
+        ;
+        switch($good){
+            case 0: {
+                print "<p>On day $monthday of the month $provisionedActivity[0] are available</p>";
+                $specs_stock--;
+                break;
+            }
+
+            case 1: {
+                print "<p>On day $monthday of the month $provisionedActivity[1] are available</p>";
+                $specs_stock--;
+                break;
+            }
+
+            case 2: {
+                print "<p>On day $monthday of the month $provisionedActivity[2] are available</p>";
+                $specs_stock--;
+                break;
+            }
+
+        }
+        $monthday++;
+
+    }while(($specs_stock >0) && ($mugs_stock >0) && ($srolls_stock >0));
+    echo "No more goods available this month";
     ?>
 </p>
 </body>
