@@ -148,7 +148,24 @@
 
     }while(($specs_stock >0) && ($mugs_stock >0) && ($srolls_stock >0));
     echo "No more goods available this month";
+    echo "<br>";
+
+    function wanted($name, $noSpecs, $noMugs, $noSausage){
+        echo    "<p>Wanted: $name</p>";
+        echo    "<p>Known to be in possesion of the following: </p>";
+        echo    "<p>Specs: $noSpecs</p>";
+        echo    "<p>Mugs: $noMugs</p>";
+        echo    "<p>Sausage Rolls: $noSausage</p>";
+        $award = (10 * (($noSpecs * $noMugs * $noSausage)/2));
+        echo    "<p>Award: $$$award</p>";
+    }
+
+    wanted("O.J", 3, 2, 5);
+    wanted("P.O", 6, 1, 2);
+    wanted("T.I", 8, 4, 7);
+    wanted("D.C", 9, 5, 4);
     ?>
+
 </p>
 </body>
 </html>
