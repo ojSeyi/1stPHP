@@ -157,7 +157,9 @@
         echo    "<p>Mugs: $noMugs</p>";
         echo    "<p>Sausage Rolls: $noSausage</p>";
         $award = (10 * (($noSpecs * $noMugs * $noSausage)/2));
-        echo    "<p>Award: $$$award</p>";
+        echo    "<p>Award: $$award</p>";
+        echo "<br>";
+        echo "<br>";
     }
 
     wanted("O.J", 3, 2, 5);
