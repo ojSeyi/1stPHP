@@ -93,8 +93,28 @@
     foreach($provisonedActivities as $x){
         print "<p>$x</p>";
     }
+    $x= 1;
+    $day = array("1st", "2nd", "3rd", "4th", "5th", "6th", "7th", "8th", "9th", "10th", "11th", "12th", "13th", "14th", "15th", "16th", "17th", "18th", "19th", "20th", "21st", "22nd", "23rdth", "24th", "25th", "26th", "27th", "28th", "29th", "30th");
+    foreach($day as $d) {
+        for ($i = 1; $i <= 30; $i++) {
+            $provisionedActivity = array("Specs", "Mugs", "Specs and Sausage rolls");
+            if (($x % 2) == 0) {
+                print "<p>On the $d of the month $provisionedActivity[0] are available</p>";
+            }
+            elseif (($x % 3) == 0) {
+                print "<p>On the $d of the month $provisionedActivity[1] are available</p>";
+            }
+            elseif (($x % 4) == 0) {
+                print "<p>On the $d of the month $provisionedActivity[2] are available</p>";
+            }
+            else {
+                print "<p>On the $d of the month no products are available</p>";
+            }
+            $x++;
 
 
+        }
+    }
 
     ?>
 </p>
