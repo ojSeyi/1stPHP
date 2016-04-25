@@ -133,13 +133,13 @@
 
             case 1: {
                 print "<p>On day $monthday of the month $provisionedActivity[1] are available</p>";
-                $specs_stock--;
+                $mugs_stock--;
                 break;
             }
 
             case 2: {
                 print "<p>On day $monthday of the month $provisionedActivity[2] are available</p>";
-                $specs_stock--;
+                $srolls_stock--;
                 break;
             }
 
